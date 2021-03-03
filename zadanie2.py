@@ -1,0 +1,6 @@
+s = ('abracadabra')
+print(s[0:2]+s[3:11])
+index = s.find("c")
+print('найден символ c под индексом', index)
+print('длина строки равна', len(s))
+print(s[:-1])
